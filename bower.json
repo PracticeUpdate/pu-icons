@@ -1,0 +1,24 @@
+{
+  "name": "pu-icons",
+  "version": "0.0.0",
+  "authors": [
+    "bradstrong <bradcstrong@gmail.com>"
+  ],
+  "description": "Custom icon font for PracticeUpdate.com",
+  "main": "dist/",
+  "keywords": [
+    "font",
+    "grunt",
+    "icon"
+  ],
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/practiceupdate-ondemand/pu-icons",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
