@@ -16,5 +16,8 @@
     "svg"
   ],
   "author": "Brad Strong",
-  "license": "BSD-2-Clause"
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "grunt-fontsmith": "~0.9.1"
+  }
 }
