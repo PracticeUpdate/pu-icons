@@ -14,6 +14,10 @@
 
 .icon-cardiology { background-image: url('png/cardiology.png'); background-repeat: no-repeat; }
 
+.icon-coe-fill { background-image: url('png/coe-fill.png'); background-repeat: no-repeat; }
+
+.icon-coe { background-image: url('png/coe.png'); background-repeat: no-repeat; }
+
 .icon-dermatology-open { background-image: url('png/dermatology-open.png'); background-repeat: no-repeat; }
 
 .icon-dermatology { background-image: url('png/dermatology.png'); background-repeat: no-repeat; }
@@ -43,6 +47,8 @@
 .icon-primarycare-open { background-image: url('png/primarycare-open.png'); background-repeat: no-repeat; }
 
 .icon-primarycare { background-image: url('png/primarycare.png'); background-repeat: no-repeat; }
+
+.icon-teardrop { background-image: url('png/teardrop.png'); background-repeat: no-repeat; }
 
 .icon-urology-open { background-image: url('png/urology-open.png'); background-repeat: no-repeat; }
 

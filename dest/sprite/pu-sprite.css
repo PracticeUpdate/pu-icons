@@ -46,6 +46,18 @@
 	background-position: NaNpx 0;
 }
 
+.coe-fill {
+	width: NaNpx;
+	height: NaNpx;
+	background-position: NaNpx 0;
+}
+
+.coe {
+	width: NaNpx;
+	height: NaNpx;
+	background-position: NaNpx 0;
+}
+
 .dermatology-open {
 	width: NaNpx;
 	height: NaNpx;
@@ -136,6 +148,12 @@
 	background-position: NaNpx 0;
 }
 
+.teardrop {
+	width: NaNpx;
+	height: NaNpx;
+	background-position: NaNpx 0;
+}
+
 .urology-open {
 	width: NaNpx;
 	height: NaNpx;
@@ -148,12 +166,12 @@
 	background-position: NaNpx 0;
 }
 
-.COE-1-open, .urology, .COE-2-open, .COE-2, .PracticeUpdate-open, .PracticeUpdate, .cardiology-open, .cardiology, .dermatology-open, .dermatology, .diabetes-open, .diabetes, .COE-1, .eyecare, .gastro, .gastroenterology-open, .gastroenterology, .neurology-open, .neurology, .oncology-open, .oncology, .primarycare-open, .primarycare, .urology-open, .eyecare-open {
+.COE-1-open, .urology, .COE-2-open, .COE-2, .PracticeUpdate-open, .PracticeUpdate, .cardiology-open, .cardiology, .coe-fill, .coe, .dermatology-open, .dermatology, .diabetes-open, .diabetes, .COE-1, .eyecare, .gastro, .gastroenterology-open, .gastroenterology, .neurology-open, .neurology, .oncology-open, .oncology, .primarycare-open, .primarycare, .teardrop, .urology-open, .eyecare-open {
 	background-size: NaNpx NaNpx;
 	background-repeat: no-repeat;
 	background-image: url("pu-sprite.png");
 }
 
-.svg .COE-1-open, .svg .urology, .svg .COE-2-open, .svg .COE-2, .svg .PracticeUpdate-open, .svg .PracticeUpdate, .svg .cardiology-open, .svg .cardiology, .svg .dermatology-open, .svg .dermatology, .svg .diabetes-open, .svg .diabetes, .svg .COE-1, .svg .eyecare, .svg .gastro, .svg .gastroenterology-open, .svg .gastroenterology, .svg .neurology-open, .svg .neurology, .svg .oncology-open, .svg .oncology, .svg .primarycare-open, .svg .primarycare, .svg .urology-open, .svg .eyecare-open {
+.svg .COE-1-open, .svg .urology, .svg .COE-2-open, .svg .COE-2, .svg .PracticeUpdate-open, .svg .PracticeUpdate, .svg .cardiology-open, .svg .cardiology, .svg .coe-fill, .svg .coe, .svg .dermatology-open, .svg .dermatology, .svg .diabetes-open, .svg .diabetes, .svg .COE-1, .svg .eyecare, .svg .gastro, .svg .gastroenterology-open, .svg .gastroenterology, .svg .neurology-open, .svg .neurology, .svg .oncology-open, .svg .oncology, .svg .primarycare-open, .svg .primarycare, .svg .teardrop, .svg .urology-open, .svg .eyecare-open {
 	background-image: url("pu-sprite.svg");
 }

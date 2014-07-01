@@ -3,13 +3,13 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="open" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 50 50" enable-background="new 0 0 50 50" xml:space="preserve">
-<g id="cardiology">
-	<g id="icon_3_">
-		<path id="heart_1_" fill="#231F20" d="M44.6,19.4c0-5.3-4.3-9.6-9.7-9.6c-3.5,0-6.6,1.9-8.3,4.7c-1.7-2.8-4.8-4.7-8.3-4.7
-			c-5.3,0-9.7,4.3-9.7,9.6c0,2.8,1.2,5.3,3.1,7h0l13.8,13.2c0.3,0.3,0.6,0.5,1.1,0.5c0.4,0,0.8-0.2,1-0.4l13.9-13.3h0
-			C43.4,24.7,44.6,22.2,44.6,19.4"/>
-	</g>
-</g>
+<symbol  id="teardrop_2_" viewBox="0 -50 50 50">
+	<path id="teardrop_1_" fill="#231F20" d="M25,0C11.2,0,0-11.2,0-25c0-13.8,11.2-25,25-25c13.8,0,25,11.2,25,25V0H25z"/>
+	<polygon display="none" fill="none" points="0,0 50,0 50,-50 0,-50 	"/>
+</symbol>
 <g id="teardrop">
+	<g id="icon_8_">
+		<use xlink:href="#teardrop_2_"  width="50" height="50" y="-50" transform="matrix(1 0 0 -1 0 0)" overflow="visible"/>
+	</g>
 </g>
 </svg>

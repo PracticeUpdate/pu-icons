@@ -4,17 +4,17 @@
 
 @font-face {
     font-family:"icons";
-    src:url("icons-8c0a0e28b6c133b257b7e36f0543b4db.eot");
+    src:url("icons-2c8cbb77610fb3b0b0c6d6dfb8f06580.eot");
     font-weight:normal;
     font-style:normal;
 }
 @font-face {
 	font-family:"icons";
-	src:url("icons-8c0a0e28b6c133b257b7e36f0543b4db.eot");
-	src:url("icons-8c0a0e28b6c133b257b7e36f0543b4db.eot?#iefix") format("embedded-opentype"),
-		url("icons-8c0a0e28b6c133b257b7e36f0543b4db.woff") format("woff"),
-		url("icons-8c0a0e28b6c133b257b7e36f0543b4db.ttf") format("truetype"),
-		url("icons-8c0a0e28b6c133b257b7e36f0543b4db.svg?#icons") format("svg");
+	src:url("icons-2c8cbb77610fb3b0b0c6d6dfb8f06580.eot");
+	src:url("icons-2c8cbb77610fb3b0b0c6d6dfb8f06580.eot?#iefix") format("embedded-opentype"),
+		url("icons-2c8cbb77610fb3b0b0c6d6dfb8f06580.woff") format("woff"),
+		url("icons-2c8cbb77610fb3b0b0c6d6dfb8f06580.ttf") format("truetype"),
+		url("icons-2c8cbb77610fb3b0b0c6d6dfb8f06580.svg?#icons") format("svg");
 	font-weight:normal;
 	font-style:normal;
 }
@@ -78,86 +78,101 @@
 }
 
 
-.icon_dermatology-open:before {
+.icon_coe-fill:before {
 	content:"\f109";
 }
 
 
-.icon_dermatology:before {
+.icon_coe:before {
 	content:"\f10a";
 }
 
 
-.icon_diabetes-open:before {
+.icon_dermatology-open:before {
 	content:"\f10b";
 }
 
 
-.icon_diabetes:before {
+.icon_dermatology:before {
 	content:"\f10c";
 }
 
 
-.icon_eyecare-open:before {
+.icon_diabetes-open:before {
 	content:"\f10d";
 }
 
 
-.icon_eyecare:before {
+.icon_diabetes:before {
 	content:"\f10e";
 }
 
 
-.icon_gastro:before {
+.icon_eyecare-open:before {
 	content:"\f10f";
 }
 
 
-.icon_gastroenterology-open:before {
+.icon_eyecare:before {
 	content:"\f110";
 }
 
 
-.icon_gastroenterology:before {
+.icon_gastro:before {
 	content:"\f111";
 }
 
 
-.icon_neurology-open:before {
+.icon_gastroenterology-open:before {
 	content:"\f112";
 }
 
 
-.icon_neurology:before {
+.icon_gastroenterology:before {
 	content:"\f113";
 }
 
 
-.icon_oncology-open:before {
+.icon_neurology-open:before {
 	content:"\f114";
 }
 
 
-.icon_oncology:before {
+.icon_neurology:before {
 	content:"\f115";
 }
 
 
-.icon_primarycare-open:before {
+.icon_oncology-open:before {
 	content:"\f116";
 }
 
 
-.icon_primarycare:before {
+.icon_oncology:before {
 	content:"\f117";
 }
 
 
-.icon_urology-open:before {
+.icon_primarycare-open:before {
 	content:"\f118";
 }
 
 
-.icon_urology:before {
+.icon_primarycare:before {
 	content:"\f119";
+}
+
+
+.icon_teardrop:before {
+	content:"\f11a";
+}
+
+
+.icon_urology-open:before {
+	content:"\f11b";
+}
+
+
+.icon_urology:before {
+	content:"\f11c";
 }
