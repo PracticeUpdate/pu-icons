@@ -14,7 +14,7 @@
   ],
   "license": "MIT",
   "homepage": "https://bitbucket.org/practiceupdate-ondemand/pu-icons",
-  "private": true,
+  "private": false,
   "ignore": [
     "**/.*",
     "node_modules",
