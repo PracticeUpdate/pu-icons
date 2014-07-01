@@ -3,16 +3,9 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 50 50" enable-background="new 0 0 50 50" xml:space="preserve">
-<symbol  id="teardrop_2_" viewBox="0 -50 50 50">
-	<path id="teardrop_1_" fill="#231F20" d="M25,0C11.2,0,0-11.2,0-25c0-13.8,11.2-25,25-25c13.8,0,25,11.2,25,25V0H25z"/>
-	<polygon display="none" fill="none" points="0,0 50,0 50,-50 0,-50 	"/>
-</symbol>
 <g id="open">
-</g>
-<g id="teardrop">
-	<g id="oncology_1_">
-		<use xlink:href="#teardrop_2_"  width="50" height="50" y="-50" transform="matrix(1 0 0 -1 0 0)" overflow="visible"/>
-		<path id="icon_14_" fill="#FFFFFF" d="M25.1,7.6C15.5,7.6,7.7,15.4,7.7,25s7.8,17.4,17.4,17.4c9.6,0,17.4-7.8,17.4-17.4
+	<g id="oncology">
+		<path id="icon_2_" fill="#231F20" d="M25.1,7.6C15.5,7.6,7.7,15.4,7.7,25s7.8,17.4,17.4,17.4c9.6,0,17.4-7.8,17.4-17.4
 			S34.7,7.6,25.1,7.6z M12.9,18.3h6.7v6.2h-6.7V18.3z M20.4,38.3c-1.6,0-2.9-1.3-2.9-2.9c0-1.6,1.3-2.9,2.9-2.9
 			c1.6,0,2.9,1.3,2.9,2.9C23.3,37,22,38.3,20.4,38.3z M24.6,29.7c-1.6,0-2.9-1.3-2.9-2.9c0-1.6,1.3-2.9,2.9-2.9
 			c1.6,0,2.9,1.3,2.9,2.9C27.5,28.5,26.2,29.7,24.6,29.7z M27.5,16.3c-1.6,0-2.9-1.3-2.9-2.9c0-1.6,1.3-2.9,2.9-2.9
@@ -20,5 +13,7 @@
 			c1.6,0,2.9,1.3,2.9,2.9C36,34.2,34.8,35.5,33.2,35.5z M34.5,25.1c-1.6,0-2.9-1.3-2.9-2.9c0-1.6,1.3-2.9,2.9-2.9
 			c1.6,0,2.9,1.3,2.9,2.9C37.4,23.8,36.1,25.1,34.5,25.1z"/>
 	</g>
+</g>
+<g id="teardrop">
 </g>
 </svg>

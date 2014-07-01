@@ -1,7 +1,8 @@
 {
   "name": "pu-icons",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "authors": [
+    "Liccy Fuentes <liccyfuentes@gmail.com>",
     "bradstrong <bradcstrong@gmail.com>"
   ],
   "description": "Custom icon font for PracticeUpdate.com",
