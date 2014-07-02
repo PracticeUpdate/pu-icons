@@ -1,46 +1,10 @@
-.COE-1-open {
-	width: NaNpx;
-	height: NaNpx;
-	background-position: NaNpx 0;
-}
-
-.urology {
-	width: NaNpx;
-	height: NaNpx;
-	background-position: NaNpx 0;
-}
-
-.COE-2-open {
-	width: NaNpx;
-	height: NaNpx;
-	background-position: NaNpx 0;
-}
-
-.COE-2 {
-	width: NaNpx;
-	height: NaNpx;
-	background-position: NaNpx 0;
-}
-
-.PracticeUpdate-open {
-	width: NaNpx;
-	height: NaNpx;
-	background-position: NaNpx 0;
-}
-
 .PracticeUpdate {
 	width: NaNpx;
 	height: NaNpx;
 	background-position: NaNpx 0;
 }
 
-.cardiology-open {
-	width: NaNpx;
-	height: NaNpx;
-	background-position: NaNpx 0;
-}
-
-.cardiology {
+.urology {
 	width: NaNpx;
 	height: NaNpx;
 	background-position: NaNpx 0;
@@ -58,19 +22,7 @@
 	background-position: NaNpx 0;
 }
 
-.dermatology-open {
-	width: NaNpx;
-	height: NaNpx;
-	background-position: NaNpx 0;
-}
-
 .dermatology {
-	width: NaNpx;
-	height: NaNpx;
-	background-position: NaNpx 0;
-}
-
-.diabetes-open {
 	width: NaNpx;
 	height: NaNpx;
 	background-position: NaNpx 0;
@@ -82,25 +34,7 @@
 	background-position: NaNpx 0;
 }
 
-.COE-1 {
-	width: NaNpx;
-	height: NaNpx;
-	background-position: NaNpx 0;
-}
-
-.eyecare {
-	width: NaNpx;
-	height: NaNpx;
-	background-position: NaNpx 0;
-}
-
-.gastro {
-	width: 612px;
-	height: 612px;
-	background-position: NaNpx 0;
-}
-
-.gastroenterology-open {
+.cardiology {
 	width: NaNpx;
 	height: NaNpx;
 	background-position: NaNpx 0;
@@ -112,31 +46,13 @@
 	background-position: NaNpx 0;
 }
 
-.neurology-open {
-	width: NaNpx;
-	height: NaNpx;
-	background-position: NaNpx 0;
-}
-
 .neurology {
 	width: NaNpx;
 	height: NaNpx;
 	background-position: NaNpx 0;
 }
 
-.oncology-open {
-	width: NaNpx;
-	height: NaNpx;
-	background-position: NaNpx 0;
-}
-
 .oncology {
-	width: NaNpx;
-	height: NaNpx;
-	background-position: NaNpx 0;
-}
-
-.primarycare-open {
 	width: NaNpx;
 	height: NaNpx;
 	background-position: NaNpx 0;
@@ -154,24 +70,18 @@
 	background-position: NaNpx 0;
 }
 
-.urology-open {
+.eyecare {
 	width: NaNpx;
 	height: NaNpx;
 	background-position: NaNpx 0;
 }
 
-.eyecare-open {
-	width: NaNpx;
-	height: NaNpx;
-	background-position: NaNpx 0;
-}
-
-.COE-1-open, .urology, .COE-2-open, .COE-2, .PracticeUpdate-open, .PracticeUpdate, .cardiology-open, .cardiology, .coe-fill, .coe, .dermatology-open, .dermatology, .diabetes-open, .diabetes, .COE-1, .eyecare, .gastro, .gastroenterology-open, .gastroenterology, .neurology-open, .neurology, .oncology-open, .oncology, .primarycare-open, .primarycare, .teardrop, .urology-open, .eyecare-open {
+.PracticeUpdate, .urology, .coe-fill, .coe, .dermatology, .diabetes, .cardiology, .gastroenterology, .neurology, .oncology, .primarycare, .teardrop, .eyecare {
 	background-size: NaNpx NaNpx;
 	background-repeat: no-repeat;
 	background-image: url("pu-sprite.png");
 }
 
-.svg .COE-1-open, .svg .urology, .svg .COE-2-open, .svg .COE-2, .svg .PracticeUpdate-open, .svg .PracticeUpdate, .svg .cardiology-open, .svg .cardiology, .svg .coe-fill, .svg .coe, .svg .dermatology-open, .svg .dermatology, .svg .diabetes-open, .svg .diabetes, .svg .COE-1, .svg .eyecare, .svg .gastro, .svg .gastroenterology-open, .svg .gastroenterology, .svg .neurology-open, .svg .neurology, .svg .oncology-open, .svg .oncology, .svg .primarycare-open, .svg .primarycare, .svg .teardrop, .svg .urology-open, .svg .eyecare-open {
+.svg .PracticeUpdate, .svg .urology, .svg .coe-fill, .svg .coe, .svg .dermatology, .svg .diabetes, .svg .cardiology, .svg .gastroenterology, .svg .neurology, .svg .oncology, .svg .primarycare, .svg .teardrop, .svg .eyecare {
 	background-image: url("pu-sprite.svg");
 }
