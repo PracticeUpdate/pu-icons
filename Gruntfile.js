@@ -75,7 +75,7 @@ module.exports = function(grunt) {
 				src: '<%= paths.src %>/*.svg',
 				dest: '<%= paths.dest %>/webfonts',
 				options: {
-					//
+					stylesheet: 'less'
 				}
 			}
 		},
