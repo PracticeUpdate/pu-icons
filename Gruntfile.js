@@ -48,9 +48,10 @@ module.exports = function(grunt) {
 		'svg-sprites': {
 			pu: {
 				options: {
-					spriteElementPath: '<%= paths.src %>',
+					spriteElementPath: "<%= paths.src %>",
 					spritePath: "<%= paths.dest %>/sprite/pu-sprite.svg",
-					cssPath: "<%= paths.dest %>/sprite/pu-sprite.css"
+					cssPath: "<%= paths.dest %>/sprite/pu-sprite.css",
+					//previewPath: "<%= paths.dest %>/sprite/"
 				}
 			}
 		},
@@ -106,8 +107,6 @@ module.exports = function(grunt) {
   //load npm tasks
   require('load-grunt-tasks')(grunt);
 
-  // Default task(s).
-  //grunt.registerTask('default', ['svgstore', 'watch']);
   grunt.registerTask('default', ['svgstore', 'svg-sprites', 'grunticon:myIcons', 'webfont', 'assemble:dev']);
 	grunt.registerTask('preview', ['connect']);  
 };
