@@ -1,8 +1,6 @@
 module.exports = function(grunt) {
-  // require it at the top and pass in the grunt instance
   require('time-grunt')(grunt);
   
-  // Project configuration.
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
     
@@ -14,23 +12,23 @@ module.exports = function(grunt) {
 
     // Task configuration.
     paths: {
-      dest: 'dest',
-      dist: 'dist',
-      src: 'src'
+      dest : 'dest',
+      dist : 'dist',
+      src  : 'src'
     },
 
 		assemble: {
       options: {
-        pkg: '<%= pkg %>',
-        data: '<%= paths.dist %>/_data/*.json',
+        pkg   : '<%= pkg %>',
+        data  : '<%= paths.dist %>/_data/*.json',
       },
 			dev: {
 				files: [{
-					expand: true,
-					cwd: '<%= paths.dist %>/_page/',
-					src: ['*.hbs'],
-					dest: '<%= paths.dest %>/page/',
-					ext: '.html'
+					expand : true,
+					cwd    : '<%= paths.dist %>/_page/',
+					src    : ['*.hbs'],
+					dest   : '<%= paths.dest %>/page/',
+					ext    : '.html'
 				}]
 			}
 		},
@@ -39,21 +37,29 @@ module.exports = function(grunt) {
 			options: {},
 			default : {
 				files: {
-					'<%= paths.dest %>/dest.svg': ['<%= paths.src %>/*.svg'],
-					'<%= paths.dest %>/dest.ai': ['<%= paths.src %>/*.ai'],
+					'<%= paths.dest %>/dest.svg' : ['<%= paths.src %>/*.svg'],
+					'<%= paths.dest %>/dest.ai'  : ['<%= paths.src %>/*.ai'],
 				},
 			},
 		},
-
-		svgsprite: {
-			pu: {
-				src      : ["<%= paths.src %>"],
-				dest     : "<%= paths.dest %>/sprite/",
-				render   : {
-					less: {
-						template    : '<%= paths.dest %>/sprite/sprite.less',
-						dest        : '<%= paths.dest %>/sprite/'
-					}
+		
+		svgsprite       : {
+			spriteSass    : {
+				src         : ["<%= paths.src %>"],
+				dest        : "<%= paths.dest %>/sprite/",
+				options     : {
+					render    : {
+					  html    : true,
+						css     : false,
+						less    : {
+							dest  : 'less/_sprite'
+						}
+					},
+					maxwidth  : 50,
+					maxheight : 50,
+					padding   : 10,
+					keep      : true,
+					dims      : true
 				}
 			}
 		},
@@ -62,45 +68,45 @@ module.exports = function(grunt) {
 			myIcons: {
 				files: [{
 					expand: true,
-					cwd: '<%= paths.src %>',
-					src: ['*.svg', '*.png'],
-					dest: '<%= paths.dest %>/grunticons/'
+					cwd             : '<%= paths.src %>',
+					src             : ['*.svg', '*.png'],
+					dest            : '<%= paths.dest %>/grunticons/'
 				}],
 				options: {
-						defaultWidth: "40px",
-						defaultHeight: "40px"
+						defaultWidth  : "40px",
+						defaultHeight : "40px"
 				}
 			}
 		},
 
 		webfont: {
 			icons: {
-				src: '<%= paths.src %>/*.svg',
-				dest: '<%= paths.dest %>/webfonts',
+				src          : '<%= paths.src %>/*.svg',
+				dest         : '<%= paths.dest %>/webfonts',
 				options: {
-					stylesheet: 'less'
+					stylesheet : 'less'
 				}
 			}
 		},
 
     watch: {
 			svgstore: {
-				files: ['<%= paths.dest %>/dest.ai', '<%= paths.dest %>/dest.svg'],
-				tasks: "svgstore"
+				files  : ['<%= paths.dest %>/dest.ai', '<%= paths.dest %>/dest.svg'],
+				tasks  : "svgstore"
 			},
     },
 
     connect: {
       options: {
-        hostname: '*',
-        port: 9001
+        hostname : '*',
+        port     : 9001
       },
       server: {
         options: {
-          base: '<%= paths.dev %>',
-          open: true,
-          keepalive: true,
-          livereload: true,
+          base        : '<%= paths.dev %>',
+          open        : true,
+          keepalive   : true,
+          livereload  : true,
         }
       }
     }
