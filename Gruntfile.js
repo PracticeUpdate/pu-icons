@@ -81,10 +81,16 @@ module.exports = function(grunt) {
 
 		webfont: {
 			icons: {
-				src          : '<%= paths.src %>/*.svg',
-				dest         : '<%= paths.dest %>/webfonts',
+				src            : '<%= paths.src %>/*.svg',
+				dest           : '<%= paths.dest %>/webfonts',
+				syntax: 'bem',
 				options: {
-					stylesheet : 'less'
+					stylesheet : 'less',
+					templateOptions: {
+							baseClass: 'pu-icon',
+							classPrefix: 'pu-icon-',
+							mixinPrefix: 'pu-icon_'
+					}
 				}
 			}
 		},
