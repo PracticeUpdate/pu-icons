@@ -53,6 +53,7 @@ module.exports = function (grunt) {
         options: {
          font: 'pu-icons',
          stylesheet: 'less',
+         relativeFontPath: '/assets/fonts',
           templateOptions: {
             baseClass: 'pu-icon',
             classPrefix: 'pu-icon-',
