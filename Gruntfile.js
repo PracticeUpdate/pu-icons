@@ -32,16 +32,6 @@ module.exports = function(grunt) {
 				}]
 			}
 		},
-
-		svgstore: {
-			options: {},
-			default : {
-				files: {
-					'<%= paths.dest %>/dest.svg' : ['<%= paths.src %>/*.svg'],
-					'<%= paths.dest %>/dest.ai'  : ['<%= paths.src %>/*.ai'],
-				},
-			},
-		},
 		
 		svgsprite       : {
 			spriteSass    : {
@@ -121,6 +111,6 @@ module.exports = function(grunt) {
   //load npm tasks
   require('load-grunt-tasks')(grunt);
 
-  grunt.registerTask('default', ['svgstore', 'svgsprite', 'grunticon:myIcons', 'webfont', 'assemble:dev']);
+  grunt.registerTask('default', ['svgsprite', 'grunticon:myIcons', 'webfont', 'assemble:dev']);
 	grunt.registerTask('preview', ['connect']);  
 };
