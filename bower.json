@@ -1,6 +1,6 @@
 {
   "name": "pu-icons",
-  "version": "0.0.1",
+  "version": "0.2",
   "authors": [
     "Liccy Fuentes <liccyfuentes@gmail.com>",
     "bradstrong <bradcstrong@gmail.com>"
@@ -19,6 +19,7 @@
     "**/.*",
     "node_modules",
     "bower_components",
-    "src"
+    "src",
+    "Gruntfile.js"
   ]
 }
