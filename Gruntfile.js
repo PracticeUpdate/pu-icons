@@ -46,12 +46,13 @@ module.exports = function (grunt) {
     },
 
     webfont: {
-      icons: {
+      myIcons: {
         src: '<%= paths.src %>/*.svg',
         dest: '<%= paths.dist %>/webfonts',
         syntax: 'pu-icon',
         options: {
-          stylesheet: 'less',
+         font: 'pu-icons',
+         stylesheet: 'less',
           templateOptions: {
             baseClass: 'pu-icon',
             classPrefix: 'pu-icon-',
