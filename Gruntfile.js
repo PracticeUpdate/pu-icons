@@ -61,10 +61,21 @@ module.exports = function (grunt) {
           }
         }
       }
+    },
+    less: {
+      dist: {
+        options: {
+          paths: '<%= paths.dist %>/webfonts'
+        },
+        files: {
+          'pu-icons.less': 'pu-icons.css'
+        }
+      }
     }
   });
 
   require('load-grunt-tasks')(grunt);
 
-  grunt.registerTask('default', ['svgsprite', 'grunticon:myIcons', 'webfont']);
+  grunt.registerTask('default', ['svgsprite', 'grunticon:myIcons', 'webfont', 'less:dist']);
+  grunt.registerTask('iconfont', ['webfont', 'less:dist']);
 };
