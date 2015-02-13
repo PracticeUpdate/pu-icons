@@ -62,14 +62,16 @@ module.exports = function (grunt) {
         }
       }
     },
+
     less: {
       dist: {
-        options: {
-          paths: '<%= paths.dist %>/webfonts'
-        },
-        files: {
-          'pu-icons.less': 'pu-icons.css'
-        }
+        // options: {
+        //   paths: ['<%= paths.dist %>/webfonts/', '<%= paths.dist %>/sprint/less/']
+        // },
+        files: [
+          {'<%= paths.dist %>/webfonts/pu-icons.less': '<%= paths.dist %>/webfonts/css/webfonts.css'},
+          {'<%= paths.dist %>/sprint/less/_sprite.less': '<%= paths.dist %>/sprint/css/sprite.css'}
+        ]
       }
     }
   });
@@ -77,5 +79,5 @@ module.exports = function (grunt) {
   require('load-grunt-tasks')(grunt);
 
   grunt.registerTask('default', ['svgsprite', 'grunticon:myIcons', 'webfont', 'less:dist']);
-  grunt.registerTask('iconfont', ['webfont', 'less:dist']);
+  grunt.registerTask('css', ['less:dist']);
 };
