@@ -4,7 +4,7 @@ This README would normally document whatever steps are necessary to get your app
 
 ### What is this repository for? ###
 
-This repo will create a PracticeUpdate icons as font, svg and sprite. 
+This repo creates PracticeUpdate icons as font, svg and sprite. 
 
 ### How do I get set up? ###
 
@@ -18,7 +18,7 @@ bower install pu-icons --save
 
 After that PU-icon folder will be added to you bower_component folder.
 
-Now you can simple call them by doing:
+You can refer them by doing:
 
 /bower_components/PU-icons/dist/grunticons/icons.data.png.css";
 /bower_components/PU-icons/dist/grunticons/icons.data.svg.css";
@@ -29,6 +29,11 @@ Now you can simple call them by doing:
 
 
 Note that sprint and webfont are generating via less.
+To get them as a css file do the follow:
+
+```
+...
+```
 
 
 ### Contribution guidelines ###
