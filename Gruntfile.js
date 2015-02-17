@@ -64,14 +64,16 @@ module.exports = function (grunt) {
     },
 
     less: {
-      dist: {
-        // options: {
-        //   paths: ['<%= paths.dist %>/webfonts/', '<%= paths.dist %>/sprint/less/']
-        // },
-        files: [
-          {'<%= paths.dist %>/webfonts/pu-icons.less': '<%= paths.dist %>/webfonts/css/webfonts.css'},
-          {'<%= paths.dist %>/sprint/less/_sprite.less': '<%= paths.dist %>/sprint/css/sprite.css'}
-        ]
+      development: {
+        options: {
+          compress: false,
+          yuicompress: true,
+          optimization: 2
+        },
+        files: {
+          "<%= paths.dist %>/webfonts/css/webfonts.css" : "<%= paths.dist %>/webfonts/pu-icons.less",
+          "<%= paths.dist %>/sprint/css/sprite.css" : "<%= paths.dist %>/sprite/less/_sprite.less"
+        }
       }
     }
   });
