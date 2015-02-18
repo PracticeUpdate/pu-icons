@@ -43,6 +43,8 @@ Once that's done just run the grunt `less` task:
 ```
 grunt less:dist
 ```
+### How to use it ###
+Each icon type come with a html file. Feel free to review and use it as a reference.
 
 ### Contribution guidelines ###
 
